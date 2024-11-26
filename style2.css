@@ -1,0 +1,51 @@
+.cont {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(4, 76, 208);
+    display: flex;
+    transform: scale3d(30,60);
+}
+
+.ch {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #c80505;
+    box-shadow: rgb(0, 0, 0) 3px 3px 4px;
+}
+
+.ch1:hover {
+    transform:skew(30deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch2:hover {
+    transform:skewx(45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch3:hover {
+    transform:skewy(30de 45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch4:hover {
+    transform:skewz(45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch5:hover {
+    transform:skew();
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch6:hover {
+    transform:skew();
+    background-color: #000000;
+    color: aliceblue;
+}
